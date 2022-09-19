@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Newreq2",
 			"id": "4ab99bc6-513b-4a5d-94d4-0b41d793aa5e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -27,7 +27,7 @@
 			"response": []
 		},
 		{
-			"name": "https://postman-echo.com/bytes/1",
+			"name": "Bytes",
 			"id": "e341e154-1851-47ec-adfd-6189332859ca",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -44,6 +44,93 @@
 					],
 					"path": [
 						"get"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "4d1b36c8-956d-4caf-a755-7a21ea2d05ad",
+					"name": "Bytes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://postman-echo.com/get",
+							"protocol": "https",
+							"host": [
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"get"
+							]
+						}
+					},
+					"_postman_previewlanguage": "",
+					"header": "",
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Newreq2 Copy",
+			"id": "849877b1-1de4-4148-87fa-f657e567fda9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://httpbin.org",
+					"protocol": "https",
+					"host": [
+						"httpbin",
+						"org"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bytes Copy",
+			"id": "bbb7ab01-b53e-4c92-9225-d42a4becb114",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Newreq2 Copy 2",
+			"id": "7f16f077-d925-4e16-a5f9-d3edebf2fb40",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://httpbin.org",
+					"protocol": "https",
+					"host": [
+						"httpbin",
+						"org"
 					]
 				}
 			},
